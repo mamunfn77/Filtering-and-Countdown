@@ -1,0 +1,51 @@
+
+.wrapper> *{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+    border: 2px solid rgb(219, 14, 7);
+    border-radius: 8px;
+    margin: 10px 380px 10px 350px;
+    color: rgb(47, 0, 255);
+}
+
+h2 li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.filteringBtn{
+   text-align: center;
+}
+
+.btn{
+    margin: 10px 3px;
+    background-color: rgb(60, 168, 109);
+    color: blue;
+    border-radius: 5px;
+    
+}
+
+.rose{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqPaOIM58bafsB_KzFVdZXQSjWFjfadHomUg&usqp=CAU);
+}
+    
+.sunflower{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhaPItpleTiZc4OdSKzeL4olLUOs-XWBzlqA&usqp=CAU);
+    color: red;
+}
+.bougainvillea{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwkriw5zYbVI7rvCs-qXY3KgrVj35EsVSjg&usqp=CAU);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Filtering & Countdown</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <h2 class="timer">
+        <ul>
+            <li>
+                <span class="days">14</span> days
+            </li>
+            <li>
+                <span class="hours">5</span> hours
+            </li>
+            <li>
+                <span class="mins">20</span> mins
+            </li>
+            <li>
+                <span class="secs">45</span> secs
+            </li>
+        </ul>
+    </h2>
+    
+    <div class="filteringBtn">
+    <button class="btn" type="button" data-filter="all">All</button>
+    <button class="btn" type="button" data-filter=".rose">Rose</button>
+    <button class="btn" type="button" data-filter=".sunflower">Sunflower</button>
+    <button class="btn" type="button" data-filter=".bougainvillea">Bougainvillea</button>
+    </div>
+
+    
+    
+    <div class="wrapper">
+        <div class="mix rose">Rose</div>
+        <div class="mix rose">Rose</div>
+        <div class="mix rose">Rose</div>
+        <div class="mix sunflower">Sunflower</div>
+        <div class="mix sunflower">Sunflower</div>
+        <div class="mix sunflower">Sunflower</div>
+        <div class="mix bougainvillea">Bougainvillea</div>
+        <div class="mix bougainvillea">Bougainvillea</div>
+        
+               
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/jquery.countdown.min.js"></script>
+    <script src="./js/apps.js"></script>
+</body>
+</html>
